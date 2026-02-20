@@ -1,0 +1,69 @@
+/* *animation for image in Services */
+@keyframes updown {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-25px);
+    }
+}
+
+/* *animation for rotate pizza */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+
+@keyframes run {
+    20% {
+        opacity: 1;
+        transform: translate(0, -30px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+
+    70% {
+        opacity: 0;
+        transform: translate(200%, 0);
+    }
+}
+
+@keyframes span-up {
+    0% {
+        top: 25%;
+    }
+
+    50% {
+        top: 47%;
+    }
+
+    to{
+        top: 47%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+}
+
+@keyframes span-down {
+    0% {
+        top: 78%;
+    }
+
+    50% {
+        top: 47%;
+    }
+
+    to {
+        top: 47%;
+        transform: translate(-50%, -50%) rotate(-45deg)
+    }
+}

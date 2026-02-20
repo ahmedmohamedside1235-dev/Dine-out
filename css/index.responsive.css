@@ -1,0 +1,437 @@
+@media (max-width: 1300px) {
+
+    /* *media query for header */
+
+    /* *global anchor */
+    a.anchor {
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+
+    /* *global fonts size for paragraph */
+    p {
+        font-size: 12px;
+    }
+
+    /* *first slide */
+    header .carousel-inner .carousel-item:nth-of-type(1) .container h2 {
+        font-size: 40px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(1) .container p {
+        width: initial;
+    }
+
+    /* *second slide */
+    header .carousel-inner .carousel-item:nth-of-type(2) .content .row .part1 .image {
+        width: 40%;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2).active .content .row .part1 .image {
+        top: 30px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .content .row .part1 h2 {
+        font-size: 55px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2).active .content .row .part1 .info h4 {
+        font-size: 25px;
+    }
+
+    /* *third slide */
+    header .carousel-inner .carousel-item:nth-of-type(3) .content .row .part2 h2 {
+        font-size: 20px;
+    }
+
+    header #carouselExampleCaptions>button {
+        font-size: 16px;
+        bottom: 20px;
+        width: 40px;
+        height: 40px;
+    }
+
+    header #carouselExampleCaptions .carousel-control-prev {
+        right: 100px;
+    }
+
+    header #carouselExampleCaptions .carousel-control-next {
+        right: 40px;
+    }
+
+    /* *media query for section Product */
+    #Products {
+        overflow: auto;
+    }
+
+    #Products .col img {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* *global title */
+    .title h2 {
+        font-size: 35px;
+    }
+
+    .title .design img {
+        width: 15%;
+    }
+
+    .title .design::before,
+    .title .design::after {
+        width: 15%;
+    }
+
+    /* *media query for section About */
+    #About .content h3.head {
+        font-size: 18px;
+    }
+
+    #About .content .images .item h5 {
+        font-size: 15px;
+    }
+
+    #About .content a {
+        font-size: initial;
+    }
+
+    #About .sec2 .item {
+        height: 200px;
+    }
+
+    #About .sec2 .item h3 {
+        font-weight: 700;
+        width: 50%;
+        text-align: center;
+    }
+
+    /* *media query for section Testimonials */
+    #Testimonials .container>h2 {
+        font-size: 20px;
+    }
+
+    #Testimonials .container hr {
+        width: 40%;
+    }
+
+    #Testimonials .container>p {
+        width: 100%;
+    }
+
+    /* *media query for section Menu */
+    #Menu .nav-content button.nav-link {
+        padding: 15px 16px;
+    }
+
+    #Menu .nav-content button.nav-link::after {
+        border: 10px solid transparent;
+        border-color: transparent transparent var(--second-color) transparent;
+        border-bottom-width: 0;
+        left: 50%;
+        top: initial;
+        right: initial;
+        bottom: 0;
+        transform: translate(-50%);
+    }
+
+    #Menu .nav-content button.nav-link.active::after {
+        border-bottom-width: 10px;
+    }
+
+    #Menu .nav-content button.nav-link:first-child {
+        border-radius: 5px 0 0 5px;
+    }
+
+    #Menu .nav-content button.nav-link:last-child {
+        border-radius: 0 5px 5px 0;
+    }
+
+    /* *media query for section team */
+    #Team .row .chef .item {
+        max-width: 280px;
+        margin: auto;
+    }
+
+    #Team .row .chef:not(:last-child) .item {
+        margin-bottom: 70px;
+    }
+
+    /* *media query for section Order */
+    #Order .row .form-container>.item {
+        width: 100%;
+        padding: 20px 25px;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+
+    /* *media query for header */
+
+    /* *global anchor */
+    a.anchor {
+        padding: 8px 24px;
+        font-size: 16px;
+    }
+
+    /* *global fonts in header for *paragraph */
+    header .content p {
+        font-size: 14px;
+    }
+
+    /* *first slide */
+    header .carousel-inner .carousel-item:nth-of-type(1) .container h2 {
+        font-size: 50px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(1) .container p {
+        width: 90%;
+    }
+
+    /* *second slide */
+    header .carousel-inner .carousel-item:nth-of-type(2) .content .row .part1 .image {
+        width: 35%;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .content .row .part1 h2 {
+        font-size: 60px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .content .part2 .row .item img {
+        width: 60%;
+    }
+
+    /* *third slide */
+    header .carousel-inner .carousel-item:nth-of-type(3) .content .row .part2 h2 {
+        font-size: 25px;
+    }
+
+    /* *media query for section About */
+    #About .content h3.head {
+        font-size: 20px;
+    }
+
+    #About .content .images .item h5 {
+        font-size: 18px;
+    }
+
+    #About .sec2 .item {
+        height: 250px;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+
+    /* *media query for header */
+
+    /* *global fonts size for paragraph */
+    p {
+        font-size: 16px;
+    }
+
+    /* *first slide */
+    header .carousel-inner .carousel-item:nth-of-type(1) .container h2 {
+        font-size: 60px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(1) .container p {
+        width: 80%;
+    }
+
+    /* *second slide */
+    header .carousel-inner .carousel-item:nth-of-type(2) .content .row .part1 .info {
+        width: 75%;
+        margin: auto;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .content .part2 .row .item img {
+        width: 40%;
+    }
+
+    /* *third slide */
+    header .carousel-inner .carousel-item:nth-of-type(3) .content .row .part2 h2 {
+        font-size: 25px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .content .part2 img {
+        width: 40% !important;
+    }
+
+    /* *global title */
+    .title .design::before,
+    .title .design::after {
+        width: 10%;
+    }
+
+    /* *media query for section About */
+    #About .content h3.head {
+        font-size: 25px;
+    }
+
+    #About .sec2 .item {
+        height: 300px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    /* *media query for header */
+
+    /* *first slide */
+    header .carousel-inner .carousel-item:nth-of-type(1) .container h2 {
+        font-size: 70px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(1) .container p {
+        width: 60%;
+    }
+
+    /* *second slide */
+    header .carousel-inner .carousel-item:nth-of-type(2) .content .row .part1 .info {
+        width: 100%;
+        margin: initial;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .content .row .part1 .image {
+        width: 50%;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .content .part2 .row .item img {
+        width: 60%;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .content .part2 img {
+        width: 60% !important;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .content .row .part1 img {
+        width: 100%;
+    }
+
+    header #carouselExampleCaptions>button {
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    header #carouselExampleCaptions .carousel-control-prev {
+        right: 130px;
+    }
+
+    header #carouselExampleCaptions .carousel-control-next {
+        right: 50px;
+    }
+
+    /* *media query for section Product */
+    #Products {
+        overflow: hidden;
+    }
+
+    /* *global title */
+    .title .design img {
+        width: 10%;
+    }
+
+    /* *media query for section About */
+    #About .content h3.head {
+        font-size: 20px;
+    }
+
+    #About .content p {
+        font-size: 12px;
+    }
+
+    #About .sec2 .item {
+        height: 250px;
+    }
+
+    /* *media query for section Testimonials */
+    #Testimonials .container>p {
+        width: 90%;
+    }
+
+    #Testimonials .container .item h4 {
+        font-size: 16px;
+    }
+
+    /* *media query for section team */
+    #Team .row .item .info h4 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+
+    /* *media query for header */
+
+    /* *third slide */
+    header .carousel-inner .carousel-item:nth-of-type(3) .content .row .part1 img {
+        width: 80%;
+    }
+
+    /* *media query for section Testimonials */
+    #Testimonials .container>h2 {
+        font-size: 35px;
+    }
+
+    #Testimonials .container hr {
+        width: 25%;
+    }
+
+    #Testimonials .container .item p,
+    #Testimonials .container .item h4 {
+        font-size: 20px;
+    }
+
+    /* *media query for section Menu */
+
+
+    #Menu .nav-content button.nav-link::after {
+        border: 10px solid;
+        border-color: transparent var(--second-color) transparent transparent;
+        border-right-width: 0;
+        top: 50%;
+        right: 0;
+        bottom: initial;
+        transform: translateY(-50%);
+    }
+
+    #Menu .nav-content button.nav-link.active::after {
+        border-right-width: 10px;
+    }
+
+    #Menu .nav-content button.nav-link:first-child {
+        border-radius: 5px 5px 0 0;
+    }
+
+    #Menu .nav-content button.nav-link:last-child {
+        border-radius: 0 0 5px 5px;
+    }
+
+    #Menu .tab-content .tab-pane.show .item.py-2 .body strong {
+        font-size: 13px;
+    }
+
+    #Menu .tab-content .tab-pane .item.py-2 .body i {
+        font-size: 8px;
+    }
+
+    /* *media query for section team */
+    #Team .row .item .info h4 {
+        font-size: 25px;
+    }
+
+    /* *media query for section Order */
+    #Order .row .form-container>.item {
+        width: 85%;
+    }
+
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+
+    /* *global title */
+    .title .design img {
+        width: initial;
+    }
+}
